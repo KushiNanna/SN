@@ -24,3 +24,5 @@ git diff : show changes not yet staged
 git stash :termporarily save changes
 git clean -f : cleans untracked files
 
+
+Done
