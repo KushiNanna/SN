@@ -24,3 +24,11 @@ git diff : show changes not yet staged
 git stash :termporarily save changes
 git clean -f : cleans untracked files
 
+Create a branch:
+git branch new-branch-name
+Switch to a branch:
+git checkout new-branch-name
+Create and switch to a branch:
+git checkout -b new-branch-name
+Push a new branch to the remote repository:
+git push origin new-branch-name
