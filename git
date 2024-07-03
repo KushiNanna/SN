@@ -1,0 +1,26 @@
+Git commands
+git init: initialize repository
+git clone<repo_url> : clone repository
+git status :view repo status
+git add <file> : Stage changes
+git add . : stage all changes
+git commit -m "message" : commit changes
+git branch : list branches
+git branch <branch> : creates branch
+git checkout <branch> :switch to branch
+git merge <branch>
+git remote -v :view remotes
+git pull origin <branch> :pull changes
+git push origin <branch> : push changes
+git log : view commit history
+git log --oneline : commit history in short
+git revert <commit> 
+git reset <commit> 
+git tag : list tags
+git tag -a v1.0 -m "tag" : create annotated tags
+git config --global user.name "name" : set global username
+git config --global user.email "email" : set global email
+git diff : show changes not yet staged
+git stash :termporarily save changes
+git clean -f : cleans untracked files
+
